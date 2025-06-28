@@ -3,7 +3,7 @@ import requests
 
 # Set the FastAPI backend URL.
 # Adjust the port and host as needed.
-API_URL = "http://localhost:8000"
+API_URL = "https://chatbot-qfur.onrender.com"
 
 def upload_files(files):
     upload_endpoint = f"{API_URL}/upload/"
